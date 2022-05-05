@@ -1,0 +1,9 @@
+
+Convert to txt:
+python -m line_profiler main.py.lprof > results.txt
+
+Run profiler:
+kernprof -l -v main.py
+
+Install:
+pip install line_profiler
